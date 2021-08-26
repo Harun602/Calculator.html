@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+}
+form{
+    width: 340px;
+    box-sizing: border-box;
+    background: #ddd;
+    padding: 30px 15px 15px 15px;
+    -webkit-box-shadow: 0 2px 5px 2px rgba(0,0,0,6);
+     box-shadow: 0 2px 5px 2px rgba(0,0,0,6);
+    margin: 65px 450px;
+}
+
+input[type="text"] {
+    width: 100%;
+    font-size: 36px;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: right;
+}
+#text-box{
+    background: #91b270;
+    border-radius: 10px;
+    width: 278px;
+    padding: 12px 20px;
+}
+input[type="button"] {
+    width: 58px;
+    height: 55px;
+    background: #aaa;
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+hr{
+    margin: 15px 0;
+}
+#Addition{
+    height: 115px;
+    position: absolute;
+    
+}
+#Subtraction{
+    margin-left: 62px;
+}
+#Equal{
+    margin-left: 62px;
+}
+.shadow-outline{
+    box-shadow: 2px 2px 4px #222, 1;
+}
